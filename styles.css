@@ -1,0 +1,62 @@
+/* Grundlegendes Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    
+}
+.background { 
+    background-color: blue;
+     color: blue;
+}
+h1 {
+    
+    border-width: 10px;
+    font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Permanent Marker', cursive; 
+    color: #0e101180;
+    font-size: 2em;
+    border-color: rgb(44, 29, 96);
+}
+    
+
+    button {
+        font-family: font-family: 'Alice', serif;
+        background-color:#3f87a6 ;
+        border: none;
+        border-style: solid;
+        border-width: 0px;
+        color: rgb(255, 255, 255);
+        padding:  1px 2px;
+        padding-left: 25px;
+        padding-right: 25px;
+        vertical-align: top;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 2px 0;
+        transition: background-color 1s,
+        color 1s;
+
+        }
+
+        button:hover {
+        background-color:rgba(14, 200, 154, 0.482);
+        color: rgb(255, 255, 255);
+        }
+        
+        button:active {
+        opacity: 0.7
+        
+        }
+       
+       
